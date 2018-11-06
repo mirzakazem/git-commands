@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>Ishtirak</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="login_div" class="main-div">
+    <h3>login page</h3>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login</button>
+    <br>
+    <button onclick="signup()">signup</button>
+  
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDLG92aOw8GKJQKjVcLB_LIKJpZDkGMrEI",
+    authDomain: "ishtirak-c220.firebaseapp.com",
+    databaseURL: "https://ishtirak-c220.firebaseio.com",
+    projectId: "ishtirak-c220",
+    storageBucket: "ishtirak-c220.appspot.com",
+    messagingSenderId: "19589874996"
+  };
+  firebase.initializeApp(config);
+</script>
+  <script src="index.js"></script>
+
+</body>
+</html>
