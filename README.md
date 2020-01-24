@@ -1,0 +1,11 @@
+# ishtirak
+
+git init
+git status
+git add .
+git commit -m "description"
+git push
+
+git init
+git clone url...
+git pull
