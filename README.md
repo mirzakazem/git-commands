@@ -1,4 +1,4 @@
-# ishtirak
+# git commands
 
 git init
 git status
