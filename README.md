@@ -9,3 +9,7 @@ git push
 git init
 git clone url...
 git pull
+
+#change remote origin
+
+git remote set-url origin new.git.url/here
