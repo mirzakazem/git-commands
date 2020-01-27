@@ -10,11 +10,6 @@ git init
 git clone url...
 git pull
 
-# define remote origin:
-
-git remote add origin https://github.com/mirzakazem/demp.git
-git push -u origin master
-
 # change remote origin
-
-git remote set-url origin new.git.url/here
+git remote set-url origin https://github.com/user/repo2.git
+# git remote -v
