@@ -13,3 +13,6 @@ git pull
 # change remote origin
 git remote set-url origin https://github.com/user/repo2.git
 # git remote -v
+
+# merge unrelated histories
+git pull origin master --allow-unrelated-histories
